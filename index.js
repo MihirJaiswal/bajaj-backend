@@ -9,7 +9,7 @@ app.listen(PORT, () => {
 app.use(express.json());
 
 // Define the root route
-app.get('/', (req, res) => {
+app.get('/bfhl', (req, res) => {
   res.send('Welcome to the BFHL API!');
 });
 
