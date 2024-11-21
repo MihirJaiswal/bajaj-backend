@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 const corsOptions = {
-    origin: 'https://bajaj-finserve-alpha.vercel.app/',  // Allow requests from this domain
+    origin: 'https://bajaj-finserve-alpha.vercel.app',  // Allow requests from this domain
     methods: 'GET, POST, PUT, DELETE', // Allowed HTTP methods
     allowedHeaders: 'Content-Type, Authorization',  // Allow specific headers
   };
